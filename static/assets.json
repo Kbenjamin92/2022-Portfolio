@@ -1,0 +1,21 @@
+[
+    {
+        "HEADER": {
+            "content": "Hi! I'm Kipp welcome to my page!"
+        },
+        "MAIN": {
+            "ABOUT": {
+                "title": "A Little Bit About Me!",
+                "experience": "",
+                "personality": "",
+                "goals": ""
+            },
+            "SKILLS": {
+                "title": "Skills I've Acquired"
+            },
+            "PROJECTS": {
+                "title": "Projects"
+            }
+        }
+    }
+]
