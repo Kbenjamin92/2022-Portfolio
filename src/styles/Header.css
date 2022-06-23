@@ -1,0 +1,23 @@
+.header-container {
+    background-color: aqua;
+    margin: 0px 0px 21.44px 0px;
+    height: 40vh;
+}
+.header-content {
+    margin: 0px;
+    padding: 4rem 0px 0px 0px;
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 700px) {
+    .header-container {
+        background-color: aqua;
+        margin: 0px 0px 21.44px 0px;
+        height: 55vh;
+    }
+    .header-content {
+        margin: 0px;
+        padding: 8rem 0px 0px 0px;
+        font-size: 4rem;
+    }
+}
