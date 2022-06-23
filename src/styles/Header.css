@@ -1,17 +1,33 @@
 .header-container {
-    background-color: aqua;
+    position: relative;
     margin: 0px 0px 21.44px 0px;
     height: 40vh;
+    opacity: 0.6;
+    background: rgb(85, 85, 85);
+    z-index: 2;
+    
 }
 .header-content {
+    position: absolute;
+    color: white;
     margin: 0px;
     padding: 4rem 0px 0px 0px;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
+    z-index: 5;
+}
+.header-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 40vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    margin: 0px 0px 20px 0px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 720px) {
     .header-container {
-        background-color: aqua;
         margin: 0px 0px 21.44px 0px;
         height: 55vh;
     }
