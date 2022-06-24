@@ -8,6 +8,7 @@ const Header = () => {
   const headerContent = staticContent.map((asset, keys) => {
     return (
         <div key={keys}>
+            <div className="header-opacity"></div>
             <h1 className="header-content">{asset.HEADER.title}</h1>
         </div>
       );
@@ -15,7 +16,7 @@ const Header = () => {
   return (
     <>
      <Container className="header-container">
-        <video loop autoPlay className="header-video">
+        <video loop autoPlay muted={true} className="header-video">
             <source src={personCoding} type="video/mp4"/>
         </video>
         {headerContent}

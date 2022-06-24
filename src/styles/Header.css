@@ -1,39 +1,79 @@
 .header-container {
-    position: relative;
     margin: 0px 0px 21.44px 0px;
     height: 40vh;
-    opacity: 0.6;
-    background: rgb(85, 85, 85);
-    z-index: 2;
-    
+    z-index: 0;
 }
+.header-opacity {
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    background-blend-mode: darken;
+    background-color: #000000;
+    opacity: 0.5;
+    height: 40vh;
+    width: 100vw;
+}
+
 .header-content {
     position: absolute;
-    color: white;
-    margin: 0px;
     padding: 4rem 0px 0px 0px;
     font-size: 2.7rem;
-    z-index: 5;
+    color: white;
+    z-index: 3;
+    height: 40vh;
+    margin: 0px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.59);
 }
+
 .header-video {
+    position: absolute;
     object-fit: cover;
     width: 100vw;
     height: 40vh;
-    position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 0;
+    z-index: 1;
     margin: 0px 0px 20px 0px;
 }
+
 
 @media screen and (min-width: 720px) {
     .header-container {
         margin: 0px 0px 21.44px 0px;
         height: 55vh;
+        width: 100%;
+        z-index: 0;
+    }
+    .header-opacity {
+        position: absolute;
+        z-index: 2;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-blend-mode: darken;
+        background-color: #000000;
+        opacity: 0.5;
+        height: 50vh;
+        width: 100vw;
     }
     .header-content {
+        position: absolute;
         margin: 0px;
-        padding: 8rem 0px 0px 0px;
+        padding: 5rem 6rem 0px 6rem;
         font-size: 4rem;
+        z-index: 3;
+        color: white;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.59);
+    }
+    .header-video {
+        object-fit: cover;
+        width: 100vw;
+        height: 50vh;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        margin: 0px 0px 20px 0px;
     }
 }
