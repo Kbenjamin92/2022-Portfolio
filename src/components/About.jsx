@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/About.css';
 import aboutContent from '../static/assets.json';
 
 const About = () => {
@@ -8,18 +9,18 @@ const About = () => {
       <div key={keys}>
         <h2 className="about-title">{asset.MAIN.ABOUT.title}</h2>
         <div className="about-container">
-          <section>
+          <div>
             <h3>{asset.MAIN.ABOUT.experience.title}</h3>
-            <p>{asset.MAIN.ABOUT.experience.description}</p>
-          </section>
-          <section>
+            <p className="about-description">{asset.MAIN.ABOUT.experience.description}</p>
+          </div>
+          <div>
             <h3>{asset.MAIN.ABOUT.personality.title}</h3>
-            <p>{asset.MAIN.ABOUT.personality.description}</p>
-          </section>
-          <section>
+            <p className="about-description">{asset.MAIN.ABOUT.personality.description}</p>
+          </div>
+          <div>
             <h3>{asset.MAIN.ABOUT.goals.title}</h3>
-            <p>{asset.MAIN.ABOUT.goals.description}</p>
-          </section>
+            <p className="about-description">{asset.MAIN.ABOUT.goals.description}</p>
+          </div>
         </div>
       </div>
     );
