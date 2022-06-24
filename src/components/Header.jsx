@@ -1,11 +1,11 @@
 import { Container } from "@mui/system";
 import React from "react";
-import staticContent from '../static/assets.json';
+import headerContent from '../static/assets.json';
 import '../styles/Header.css';
 import personCoding from '../videos/person-coding.mp4'
 
 const Header = () => {
-  const headerContent = staticContent.map((asset, keys) => {
+  const header = headerContent.map((asset, keys) => {
     return (
         <div key={keys}>
             <div className="header-opacity"></div>
@@ -19,7 +19,7 @@ const Header = () => {
         <video loop autoPlay muted={true} className="header-video">
             <source src={personCoding} type="video/mp4"/>
         </video>
-        {headerContent}
+        {header}
      </Container>
     </>
   )};

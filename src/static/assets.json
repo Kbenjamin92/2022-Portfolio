@@ -6,9 +6,18 @@
         "MAIN": {
             "ABOUT": {
                 "title": "A Little Bit About Me!",
-                "experience": "",
-                "personality": "",
-                "goals": ""
+                "experience": {
+                    "title": "Experience",
+                    "description": ""
+                },
+                "personality": {
+                    "title": "Personality",
+                    "description": ""
+                },
+                "goals": {
+                    "title": "Goals",
+                    "description": ""
+                }
             },
             "SKILLS": {
                 "title": "Skills I've Acquired"
