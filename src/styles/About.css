@@ -57,9 +57,22 @@
     .experience-border {
         border-right: 1px solid #dddddd;
         border-bottom: none;
+        margin: 5rem 1rem 0px 0px;
     }
     .personality-border {
         border-right: 1px solid #dddddd;
         border-bottom: none;
+        margin: 5rem 0px 0rem 1rem;
+    }
+    .about-title-border {
+        border-bottom: 1px solid #dddddd;
+        margin: 0px 19rem 5rem 19rem;
+        padding: 10px 0px 0px 0px;
+    }
+    .about-main-title {
+        font-size: 3rem;
+        color: #383838;
+        padding: 0px 0px 0.5rem 0px;
+        margin: 2.5rem 2.5rem 0px 2.5rem;
     }
 }
