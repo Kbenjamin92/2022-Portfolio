@@ -42,6 +42,11 @@
     margin: 0px 3rem 2.5rem 3rem;
     padding: 10px 0px 0px 0px;
 }
+.icons {
+    position: relative;
+    top: 4px;
+    right: 14px;
+}
 
 @media screen and (min-width: 768px) {
     .about-container {
@@ -49,14 +54,10 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
-
-
     .experience-border {
         border-right: 1px solid #dddddd;
         border-bottom: none;
-        
     }
-    
     .personality-border {
         border-right: 1px solid #dddddd;
         border-bottom: none;
