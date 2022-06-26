@@ -1,8 +1,9 @@
 .skills-container {
     padding-top: 1rem;
     background-color: #252525;
-    background: linear-gradient(#112b4b, #fff);
+    background: linear-gradient(#1d487d, #fff);
     height: 60vh;
+    margin-bottom: 7rem;
 }
 .skills-main-title {
     font-size: 1.7rem;

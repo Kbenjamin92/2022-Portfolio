@@ -9,6 +9,10 @@ import gitLogo from '../icons/git.svg';
 import npmLogo from '../icons/npm.svg';
 import typescriptLogo from '../icons/typescript-logo.svg';
 import nodeLogo from '../icons/node-logo.svg';
+import bootstrapLogo from '../icons/bootstrap-logo.svg';
+import materialUILogo from '../icons/material-ui-logo.svg'
+import reduxLogo from '../icons/redux-logo.svg'
+import angularLogo from '../icons/angular-logo.svg';
 
 const Skills = () => {
 
@@ -34,6 +38,12 @@ const Skills = () => {
             <img className="skills-icons" src={reactLogo} alt="react logo"/>
           </div>
           <div>
+            <img className="skills-icons" src={angularLogo} alt="angular logo"/>
+          </div>
+          <div>
+            <img className="skills-icons" src={reduxLogo} alt="redux logo"/>
+          </div>
+          <div>
             <img className="skills-icons" src={nodeLogo} alt="node logo"/>
           </div>
           <div>
@@ -41,6 +51,12 @@ const Skills = () => {
           </div>
           <div>
             <img className="skills-icons" src={npmLogo} alt="npm logo"/>
+          </div>
+          <div>
+            <img className="skills-icons" src={bootstrapLogo} alt="bootstrap logo"/>
+          </div>
+          <div>
+            <img className="skills-icons" src={materialUILogo} alt="material UI logo"/>
           </div>
           
         </div>
