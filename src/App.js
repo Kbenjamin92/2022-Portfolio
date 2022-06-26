@@ -11,7 +11,7 @@ const App = () => {
       <header>
         <Header />
       </header>
-      <main>
+      <main className="main-container">
         <About />
         <Skills />
         <Projects />
