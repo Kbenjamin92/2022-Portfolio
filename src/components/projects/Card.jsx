@@ -16,6 +16,7 @@ const Card = ({ cardTitle, cardContent, link}) => {
           </section>
           <a href={link} target="_blank" rel="noreferrer"><MyButton>View Project</MyButton></a>
       </div>
+        
     </div>
    
   )};
