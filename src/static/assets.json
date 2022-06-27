@@ -8,15 +8,28 @@
                 "title": "A Little Bit About Me!",
                 "experience": {
                     "title": "Experience",
-                    "description": ""
+                    "descriptionOne": "Specialize in building web solutions using modern front-end technology.",
+                    "descriptionTwo": "Associate Degree in Advanced Full-Stack Software Development.",
+                    "descriptionThree": "3 years of experience as a front-end software engineer.",
+                    "descriptionFour": " Knowledgeable in web development methodologies.",
+                    "descriptionFive": "Collaborated with product, design, and engineering for building functional user interfaces.",
+                    "descriptionSix": "Experienced in building customer facing reusable UI components."
                 },
                 "personality": {
                     "title": "Personality",
-                    "description": "Veritatisobcaecati tenetur iure eius earum ut molestias Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam maximedoloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo "
+                    "descriptionOne": "Ambitious, passionate, and driven front-end software engineer.",
+                    "descriptionTwo": "Team Player.",
+                    "descriptionThree": "Hungry, and fast learner.",
+                    "descriptionFour": "Passionate problem solver.",
+                    "descriptionFive": "Creativity and innovative."  
                 },
                 "goals": {
                     "title": "Goals",
-                    "description": " excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantiummodi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!"
+                    "descriptionOne": "Gain experience as a Front-End Software Architect.",
+                    "descriptionTwo": "To lead an engineering team.",
+                    "descriptionThree": "Continue to grow as an engineer.",
+                    "descriptionFour": "Expand my knowledge of JavaScript.",
+                    "descriptionFive": "Continue to be creative and innovative."
                 }
             },
             "SKILLS": {

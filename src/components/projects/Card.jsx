@@ -14,11 +14,16 @@ const Card = ({ cardTitle, cardContent, link}) => {
           <section className="card-content">
               <p className="card-text">{cardContent}</p>
           </section>
-          <a href={link} target="_blank" rel="noreferrer"><MyButton>View Project</MyButton></a>
+          <div className="card-btn-container">
+            <section>
+              <a href={link} target="_blank" rel="noreferrer"><MyButton>View Project</MyButton></a>
+            </section>
+            <section>
+              <a href={link} target="_blank" rel="noreferrer"><MyButton>View Repo</MyButton></a>
+            </section>
+          </div>
       </div>
-        
     </div>
-   
   )};
 
 export default Card;

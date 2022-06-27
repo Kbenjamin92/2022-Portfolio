@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 1rem;
 }
 
 .about-main-title {
@@ -21,10 +22,11 @@
 }
 
 .about-description {
-    margin: 0px 3rem 0px 3rem;
+    margin: 0px 2rem 0px 2rem;
     color: #707070;
     font-weight: 400;
     text-align: start;
+    padding-bottom: 0.5rem;
 }
 
 .experience-border {

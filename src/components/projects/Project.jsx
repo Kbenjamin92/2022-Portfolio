@@ -11,9 +11,9 @@ const Project = () => {
         <h2 className="project-title"><em>{asset.MAIN.PROJECTS.title}</em></h2>
         <div className="project-title-border"></div>
         {
-          cardData.map(card => {
+          cardData.map((card, keyIndex) => {
             return (
-              <div key={keys}>
+              <div key={keyIndex}>
                 <Card 
                   cardTitle={card.projectTitle}
                   cardContent={card.projectDescription}

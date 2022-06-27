@@ -39,6 +39,10 @@
     flex-direction: column;
 }
 
+.card-btn-container {
+    display: flex;
+}
+
 @media screen and (min-width: 750px) {
     .inner-card-container {
         display: flex;
