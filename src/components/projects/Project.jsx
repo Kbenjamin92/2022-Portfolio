@@ -14,11 +14,11 @@ const Project = () => {
           cardData.map(card => {
             return (
               <div key={keys}>
-              <Card 
-                cardTitle={card.projectTitle}
-                cardContent={card.projectDescription}
-                link={card.projectLink}
-              />
+                <Card 
+                  cardTitle={card.projectTitle}
+                  cardContent={card.projectDescription}
+                  link={card.projectLink}
+                />
               </div>
             );
           })

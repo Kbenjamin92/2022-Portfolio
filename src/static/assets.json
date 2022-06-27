@@ -27,7 +27,17 @@
                 "projects": [
                     {
                         "projectTitle": "Truth App",
-                        "projectDescription": "Built this with React!",
+                        "projectDescription": "Built this with React! excepturi mollitia maiores labore suscipit quas? excepturi mollitia maiores labore suscipit quas? excepturi mollitia maiores labore suscipit quas?",
+                        "projectLink": "https://www.google.com"
+                    },
+                    {
+                        "projectTitle": "Rock Paper Scissors",
+                        "projectDescription": "Built this with React! excepturi mollitia maiores labore suscipit quas? excepturi mollitia maiores labore suscipit quas?",
+                        "projectLink": "https://www.google.com"
+                    },
+                    {
+                        "projectTitle": "Weather App",
+                        "projectDescription": "Built this with React! excepturi mollitia maiores labore suscipit quas?",
                         "projectLink": "https://www.google.com"
                     }
                 ]

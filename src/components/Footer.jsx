@@ -21,8 +21,7 @@ const Footer = () => {
         </div>
       </div>
     )
-  })
-
+  });
   return (
     <>
       {footer}
