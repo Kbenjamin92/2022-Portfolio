@@ -1,0 +1,15 @@
+.project-title {
+    font-size: 1.7rem;
+    color: #383838;
+    padding: 0px 0px 0.5rem 0px;
+    margin: 2.5rem 2.5rem 0px 2.5rem;
+}
+.project-title-border {
+    border-bottom: 1px solid #dddddd;
+    margin: 0px 3rem 2.5rem 3rem;
+    padding: 10px 0px 0px 0px;
+}
+
+@media screen and (min-width: 768px) {
+    
+}

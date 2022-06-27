@@ -1,13 +1,22 @@
 import React from "react";
+import '../../styles/Projects.css'
 import Card from './Card';
-import DisplayCard from './DisplayCard';
+import projectContent from '../../static/assets.json'
 
 const Project = () => {
+  const projectData = projectContent.map((asset, keys) => {
+    return (
+      <div key={keys}>
+        <h2 className="project-title">{asset.MAIN.PROJECTS.title}</h2>
+        <div className="project-title-border"></div>
+      </div>
+    );
+  });
+
   return (
     <div>
-      Projects
-      <Card />
-      <DisplayCard />
+      {projectData}
+      <Card cardTitle="Truth App" cardContent="Built with React"/>
     </div>
   )};
 

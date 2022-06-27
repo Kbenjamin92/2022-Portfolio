@@ -23,7 +23,14 @@
                 "title": "Skills I've Acquired"
             },
             "PROJECTS": {
-                "title": "Projects"
+                "title": "Projects",
+                "projects": [
+                    {
+                        "project-title": "Truth App",
+                        "project-description": "Built this with React!",
+                        "project-link": "https://www.google.com"
+                    }
+                ]
             }
         }
     }
