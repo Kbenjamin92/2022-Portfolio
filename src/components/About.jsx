@@ -11,7 +11,7 @@ const About = () => {
   const about = aboutContent.map((asset, keys) => {
     return (
       <div key={keys}>
-        <h2 className="about-main-title">{asset.MAIN.ABOUT.title}</h2>
+        <h2 className="about-main-title"><em>{asset.MAIN.ABOUT.title}</em></h2>
         <div className="about-title-border"></div>
         <div className="about-container">
           <div>

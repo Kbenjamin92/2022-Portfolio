@@ -8,7 +8,7 @@ const Project = () => {
     const cardData = asset.MAIN.PROJECTS.projects;
     return (
       <div key={keys}>
-        <h2 className="project-title">{asset.MAIN.PROJECTS.title}</h2>
+        <h2 className="project-title"><em>{asset.MAIN.PROJECTS.title}</em></h2>
         <div className="project-title-border"></div>
         {
           cardData.map(card => {

@@ -19,7 +19,7 @@ const Skills = () => {
   const skills = skillsContent.map((asset, keys) => {
     return (
       <div key={keys}>
-        <h2 className="skills-main-title">{asset.MAIN.SKILLS.title}</h2>
+        <h2 className="skills-main-title"><em>{asset.MAIN.SKILLS.title}</em></h2>
         <div className="skills-title-border"></div>
         <div className="skills-list">
           <div>
