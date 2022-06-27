@@ -16,7 +16,14 @@ const Project = () => {
   return (
     <div>
       {projectData}
-      <Card cardTitle="Truth App" cardContent="Built with React"/>
+      <Card 
+        cardTitle="Truth App" 
+        cardContent="Built with React architecto voluptate aliquamnihil, eveniet aliquid culpa"
+        />
+        <Card 
+        cardTitle="Rock Papers Scissors" 
+        cardContent="Built with React architecto voluptate aliquamnihil, eveniet aliquid culpa eveniet aliquid culpa eveniet aliquid culpa"
+        />
     </div>
   )};
 

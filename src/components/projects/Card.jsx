@@ -1,16 +1,17 @@
 import React from "react";
+import '../../styles/Card.css';
 import MyButton from '../MyButton';
 
-const Card = ({ cardTitle, cardContent}) => {
+
+const Card = ({ cardTitle, cardContent }) => {
   return (
     <div className="card-container">
-        <section className="card-title">
-            <h3>{cardTitle}</h3>
+        <section className="card-title-section">
+            <h3 className="card-title">{cardTitle}</h3>
         </section>
         <section className="card-content">
-            {cardContent}
+            <p className="card-text">{cardContent}</p>
         </section>
-        {/* make custom button */}
         <MyButton>
             View Project
         </MyButton>

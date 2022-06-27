@@ -1,13 +1,14 @@
 .custom-button {
    border: 1px solid transparent;
    border-radius: 10px;
-   background-color: #ebf4fe;
+   background-color: #d7e9fe;
    padding: 10px;
    color: #000;
    height: 2.5rem;
    font-size: 1rem;
    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
    transition: all 0.3s ease 0.1ms;
+   margin: 0.9rem 0.9rem 0.9rem 0rem;
 }
 .custom-button:hover {
     border: 1px solid transparent;
