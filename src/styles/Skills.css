@@ -1,6 +1,5 @@
 .skills-container {
     padding-top: 1rem;
-    background-color: #252525;
     background: linear-gradient(#1d487d, #fff);
     height: 60vh;
     margin-bottom: 7rem;
@@ -35,8 +34,7 @@
 @media screen and (min-width: 768px)  {
     .skills-container {
         padding-top: 1rem;
-        background-color: #252525;
-        background: linear-gradient(#112b4b, #d7e9fe);
+        background: linear-gradient(#1d487d, #fff);
         height: 50vh;
     }
     
