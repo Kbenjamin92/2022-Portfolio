@@ -2,7 +2,7 @@ import { Container } from "@mui/system";
 import React from "react";
 import headerContent from '../static/assets.json';
 import '../styles/Header.css';
-import personCoding from '../videos/person-coding.mp4'
+import teamCoding from '../videos/team-coding.mp4'
 
 const Header = () => {
   const header = headerContent.map((asset, keys) => {
@@ -17,7 +17,7 @@ const Header = () => {
     <>
      <Container className="header-container">
         <video loop autoPlay muted={true} className="header-video">
-            <source src={personCoding} type="video/mp4"/>
+            <source src={teamCoding} type="video/mp4"/>
         </video>
         {header}
      </Container>

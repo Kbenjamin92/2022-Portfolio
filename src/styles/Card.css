@@ -25,7 +25,7 @@
 }
 
 .card-title {
-    font-size: 25px;
+    font-size: 23px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 9px;
     color: rgb(27, 124, 221);
@@ -33,3 +33,4 @@
 .card-text {
     margin: 0;
 }
+

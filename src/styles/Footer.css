@@ -1,0 +1,25 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem 2rem 1rem 2rem;
+    background: linear-gradient(#fff, #1d487d);
+}
+.footer-text {
+    color: #fff;
+}
+
+.footer-icon {
+    width: 40px;
+    height: 38px;
+}
+
+@media screen and (min-width: 1500px) {
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5rem 2rem 1rem 2rem;
+        background: linear-gradient(#fff, #1d487d);
+    }
+}
