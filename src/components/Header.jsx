@@ -1,4 +1,3 @@
-import { Container } from "@mui/system";
 import React from "react";
 import headerContent from '../static/assets.json';
 import '../styles/Header.css';
@@ -14,14 +13,12 @@ const Header = () => {
       );
   });
   return (
-    <>
-     <Container className="header-container">
+     <div className="header-container">
         <video loop autoPlay muted={true} className="header-video">
             <source src={teamCoding} type="video/mp4"/>
         </video>
         {header}
-     </Container>
-    </>
+     </div>
   )};
 
 export default Header;

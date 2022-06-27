@@ -3,7 +3,8 @@ import '../../styles/Card.css';
 import MyButton from '../MyButton';
 
 
-const Card = ({ cardTitle, cardContent }) => {
+const Card = ({ cardTitle, cardContent, link}) => {
+
   return (
     <div className="card-container">
         <section className="card-title-section">
@@ -12,9 +13,7 @@ const Card = ({ cardTitle, cardContent }) => {
         <section className="card-content">
             <p className="card-text">{cardContent}</p>
         </section>
-        <MyButton>
-            View Project
-        </MyButton>
+        <a href={link} target="_blank" rel="noreferrer"><MyButton>View Project</MyButton></a>
     </div>
   )};
 

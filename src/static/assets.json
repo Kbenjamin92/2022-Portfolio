@@ -26,12 +26,17 @@
                 "title": "Projects",
                 "projects": [
                     {
-                        "project-title": "Truth App",
-                        "project-description": "Built this with React!",
-                        "project-link": "https://www.google.com"
+                        "projectTitle": "Truth App",
+                        "projectDescription": "Built this with React!",
+                        "projectLink": "https://www.google.com"
                     }
                 ]
             }
+        },
+        "FOOTER": {
+            "title": "Kipp Benjamin Jr: Portfolio",
+            "linkedInLink": "https://www.linkedin.com/in/kipp-benjamin-jr-524681155/",
+            "github": "https://github.com/Kbenjamin92/"
         }
     }
 ]
