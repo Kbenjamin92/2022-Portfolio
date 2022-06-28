@@ -17,7 +17,8 @@ const Project = () => {
                 <Card 
                   cardTitle={card.projectTitle}
                   cardContent={card.projectDescription}
-                  link={card.projectLink}
+                  projectLink={card.projectLink}
+                  githubLink={card.githubLink}
                 />
               </div>
             );

@@ -3,7 +3,7 @@ import '../../styles/Card.css';
 import MyButton from '../MyButton';
 
 
-const Card = ({ cardTitle, cardContent, link}) => {
+const Card = ({ cardTitle, cardContent, projectLink, githubLink}) => {
 
   return (
     <div className="outer-card-container">
@@ -16,10 +16,10 @@ const Card = ({ cardTitle, cardContent, link}) => {
           </section>
           <div className="card-btn-container">
             <section>
-              <a href={link} target="_blank" rel="noreferrer"><MyButton>View Project</MyButton></a>
+              <a href={projectLink} target="_blank" rel="noreferrer"><MyButton>View Project</MyButton></a>
             </section>
             <section>
-              <a href={link} target="_blank" rel="noreferrer"><MyButton>View Repo</MyButton></a>
+              <a href={githubLink} target="_blank" rel="noreferrer"><MyButton>View Repo</MyButton></a>
             </section>
           </div>
       </div>
