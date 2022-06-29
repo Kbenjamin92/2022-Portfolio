@@ -46,8 +46,9 @@
                     },
                     {
                         "projectTitle": "Weather App",
-                        "projectDescription": "Built this with React! excepturi mollitia maiores labore suscipit quas?",
-                        "projectLink": "https://www.google.com"
+                        "projectDescription": "Built this weather app using React and the open weather api.",
+                        "projectLink": "https://kb-weather-app.netlify.app/",
+                        "githubLink": "https://github.com/Kbenjamin92/Weather-App"
                     }
                 ]
             }
