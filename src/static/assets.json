@@ -40,7 +40,7 @@
                 "projects": [
                     {
                         "projectTitle": "Rock Paper Scissors",
-                        "projectDescription": "User Interface built using HTML, CSS, JavaScript, and Greensock Animation.",
+                        "projectDescription": "UI built using HTML, CSS, JavaScript, and Greensock Animation.",
                         "projectLink": "https://boring-pare-35a343.netlify.app/",
                         "githubLink": "https://github.com/Kbenjamin92/Rock_Paper_Scissors"
                     },

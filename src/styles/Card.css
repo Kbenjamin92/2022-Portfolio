@@ -9,6 +9,10 @@
     padding: 1rem 2rem 1.5rem 2rem;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
+.outer-card-container {
+    display: flex;
+    flex-direction: column;
+}
 .card-container:hover {
     display: flex;
     flex-direction: column;
@@ -33,12 +37,6 @@
 .card-text {
     margin: 0;
 }
-
-.outer-card-container {
-    display: flex;
-    flex-direction: column;
-}
-
 .card-btn-container {
     display: flex;
 }
@@ -54,6 +52,11 @@
         margin: 1rem 2rem 1rem 2rem;
         padding: 1rem 2rem 1.5rem 2rem;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    .outer-card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .card-container:hover {
         display: flex;
@@ -79,9 +82,5 @@
     .card-text {
         margin: 0;
     }
-    .outer-card-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+    
 }

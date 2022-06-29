@@ -3,7 +3,11 @@ import '../../styles/Card.css';
 import MyButton from '../MyButton';
 
 
-const Card = ({ cardTitle, cardContent, projectLink, githubLink}) => {
+const Card = ({ 
+  cardTitle, 
+  cardContent, 
+  projectLink, 
+  githubLink }) => {
 
   return (
     <div className="outer-card-container">
