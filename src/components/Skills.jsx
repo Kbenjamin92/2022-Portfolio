@@ -13,6 +13,7 @@ import bootstrapLogo from '../icons/bootstrap-logo.svg';
 import materialUILogo from '../icons/material-ui-logo.svg'
 import reduxLogo from '../icons/redux-logo.svg'
 import angularLogo from '../icons/angular-logo.svg';
+import nextjsLogo from '../icons/nextjs-logo.svg';
 
 const Skills = () => {
 
@@ -42,6 +43,9 @@ const Skills = () => {
           </div>
           <div>
             <img className="skills-icons" src={reduxLogo} alt="redux logo"/>
+          </div>
+          <div>
+            <img className="skills-icons" src={nextjsLogo} alt="next logo"/>
           </div>
           <div>
             <img className="skills-icons" src={nodeLogo} alt="node logo"/>
